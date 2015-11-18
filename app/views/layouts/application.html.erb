@@ -4,6 +4,7 @@
   <title>Railsgirls</title>
   <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css" />
   <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-themes.css" />
+   
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -52,11 +53,16 @@
 
 <%= yield %>
 </div>
-<footer>
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">Rails Girls @2015</p>
+  </div>
+</footer>
+<!-- <footer>
   <div class="container">
     Rails Girls @2015
   </div>
-</footer>
+</footer> -->
 <script src="//railsgirls.com/assets/bootstrap.js"></script>
 </body>
 </html>
