@@ -21,7 +21,16 @@
 
 <div class="row">
   <div class="col-md-9">
-    <%= image_tag @idea.picture_url, width: '100%' %>
+    <%= image_tag @idea.picture_url, width: '100%' if @idea.picture.present? %>
+    <h1>Comments</h1>
+    <% @idea.comments.each do |comment| %>
+    <div>
+      <%= comment.user_name %>
+      <%= comment.body%>
+      <%=link_to 'Delete', comment, method: :delete, data: {confirm: 'Are you sure to delete this comment?'}%>
+    </div>
+    <% end %>
+    <%= render 'comments/form'%>
   </div>
   <div class="clo-md-3">
     <p><b>Name: </b><%= @idea.name%></p>
