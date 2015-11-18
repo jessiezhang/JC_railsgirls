@@ -3022,3 +3022,317 @@ Processing by CommentsController#index as HTML
   [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
   Rendered comments/index.html.erb within layouts/application (5.2ms)
 Completed 200 OK in 104ms (Views: 102.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 12:06:32 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.6ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 328ms (Views: 305.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-18 12:06:35 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mIdea Load (0.4ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.6ms)
+
+NoMethodError (undefined method `Id' for #<Idea:0x007fbfefd20300>):
+  app/controllers/ideas_controller.rb:15:in `show'
+
+
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.8ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (59.8ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.9ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-18 12:06:35 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+
+NoMethodError (undefined method `Id' for #<Idea:0x007fbfed764008>):
+  app/controllers/ideas_controller.rb:15:in `show'
+
+
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.2ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (44.2ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (112.0ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-18 12:07:59 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mIdea Load (0.7ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 1.8ms)
+
+NoMethodError (undefined method `Id' for #<Idea:0x007fbfee2a2e38>):
+  app/controllers/ideas_controller.rb:16:in `show'
+
+
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.0ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.7ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (123.6ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-18 14:07:08 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mIdea Load (0.6ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (107.2ms)
+  Rendered ideas/show.html.erb within layouts/application (158.1ms)
+Completed 200 OK in 368ms (Views: 274.9ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/comments" for ::1 at 2015-11-18 14:07:22 +0900
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dBSMsXulIHzKBl3YZutAquFfh2VrIbCTwNrCz3rR8HI5qg1+k8gMJoiQ0ABSKPQ3n9XSXYHE0TBAxad7YUDDGw==", "comment"=>{"user_name"=>"kk", "body"=>"ll", "idea_id"=>""}, "commit"=>"Create Comment"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("user_name", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_name", "kk"], ["body", "ll"], ["created_at", "2015-11-18 05:07:22.255004"], ["updated_at", "2015-11-18 05:07:22.255004"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/comments/5
+Completed 302 Found in 8ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/comments/5" for ::1 at 2015-11-18 14:07:22 +0900
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered comments/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 14:07:31 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-18 14:07:33 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (3.8ms)
+  Rendered ideas/show.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 83ms (Views: 77.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-18 14:08:30 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (2.8ms)
+  Rendered ideas/show.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 101ms (Views: 63.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-18 14:08:54 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (2.7ms)
+  Rendered ideas/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/comments" for ::1 at 2015-11-18 14:09:06 +0900
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EjQeQKZFp/+jVHpsIC6uXYsGh+pchhDaZI66gJP05xNfip+PTiiLpeHC97QU7RrA9YzS0rZjcXnkkd80iGXUeg==", "comment"=>{"user_name"=>"jess3", "body"=>"kkk", "idea_id"=>"3"}, "commit"=>"Create Comment"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "comments" ("user_name", "body", "idea_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_name", "jess3"], ["body", "kkk"], ["idea_id", 3], ["created_at", "2015-11-18 05:09:06.696725"], ["updated_at", "2015-11-18 05:09:06.696725"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/comments/6
+Completed 302 Found in 7ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-11-18 14:09:06 +0900
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered comments/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 14:09:13 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-18 14:09:15 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (2.6ms)
+  Rendered ideas/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 14:09:20 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.1ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/ideas/4" for ::1 at 2015-11-18 14:09:21 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 4]]
+  Rendered comments/_form.html.erb (1.7ms)
+  Rendered ideas/show.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 54ms (Views: 51.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/comments" for ::1 at 2015-11-18 14:09:32 +0900
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iALUHnQwuGwLyNE+iC89Ipz2eFlGfuZ2SZajioZEf53FvFXRnF2UNkleXOa87Im/4nwtYaybh9XJicY+ndVM9A==", "comment"=>{"user_name"=>"jc1", "body"=>"111", "idea_id"=>"4"}, "commit"=>"Create Comment"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "comments" ("user_name", "body", "idea_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_name", "jc1"], ["body", "111"], ["idea_id", 4], ["created_at", "2015-11-18 05:09:32.118712"], ["updated_at", "2015-11-18 05:09:32.118712"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/comments/7
+Completed 302 Found in 6ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/comments/7" for ::1 at 2015-11-18 14:09:32 +0900
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered comments/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 14:09:35 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ideas/4" for ::1 at 2015-11-18 14:09:37 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 4]]
+  Rendered comments/_form.html.erb (1.8ms)
+  Rendered ideas/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 64ms (Views: 61.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/comments" for ::1 at 2015-11-18 14:09:45 +0900
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vcf351lW8RHWPOExt53sdpsNdbBQz1GK62PVt7A46LgYeXYosTvdS5SqbOmDXljr5YcgiLoqMClrfLADq6nb0Q==", "comment"=>{"user_name"=>"jc2", "body"=>"222", "idea_id"=>"4"}, "commit"=>"Create Comment"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "comments" ("user_name", "body", "idea_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_name", "jc2"], ["body", "222"], ["idea_id", 4], ["created_at", "2015-11-18 05:09:45.019581"], ["updated_at", "2015-11-18 05:09:45.019581"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/comments/8
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/comments/8" for ::1 at 2015-11-18 14:09:45 +0900
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 8]]
+  Rendered comments/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 14:09:56 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/ideas/4" for ::1 at 2015-11-18 14:10:20 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 4]]
+  Rendered comments/_form.html.erb (2.5ms)
+  Rendered ideas/show.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 55ms (Views: 52.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/comments" for ::1 at 2015-11-18 14:10:31 +0900
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NeINCJZ651WBF+Uzl9JkQ8CS0/cRsQZ22x1lM0ie3FR4XIzHfhfLD8OBaOujEdDevhiGz/tUZ9VbAgCHUw/vPQ==", "comment"=>{"user_name"=>"jc3", "body"=>"333", "idea_id"=>"4"}, "commit"=>"Create Comment"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "comments" ("user_name", "body", "idea_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_name", "jc3"], ["body", "333"], ["idea_id", 4], ["created_at", "2015-11-18 05:10:31.917450"], ["updated_at", "2015-11-18 05:10:31.917450"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/comments/9
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/comments/9" for ::1 at 2015-11-18 14:10:31 +0900
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered comments/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 14:10:34 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ideas/4" for ::1 at 2015-11-18 14:10:36 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 4]]
+  Rendered comments/_form.html.erb (2.1ms)
+  Rendered ideas/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 0.3ms)

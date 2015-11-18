@@ -13,7 +13,7 @@ class IdeasController < ApplicationController
     @idea = Idea.find(params[:id])
     @comments = @idea.comments
     @comments = @idea.comments.build
-    @comment = Comment.new
+    @comment = Comment.new(:idea => @idea)
   end
 
   # GET /ideas/new
