@@ -4682,3 +4682,1114 @@ Started GET "/assets/sticky-footer.self-23c75e730b8a6f005008ea4e9fcc64e502f2d852
 
 
 Started GET "/assets/application.self-3d8f4370177fa1f45e29c81ee3321a27790338c8372ef98bdd4ef7063eb11515.css?body=1" for ::1 at 2015-11-18 17:10:13 +0900
+
+
+Started GET "/" for ::1 at 2015-11-18 17:25:07 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.6ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 466ms (Views: 407.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/sticky-footer.self-23c75e730b8a6f005008ea4e9fcc64e502f2d852dd7396e1a8599afe27e35db6.css?body=1" for ::1 at 2015-11-18 17:25:07 +0900
+
+
+Started GET "/assets/application.self-3d8f4370177fa1f45e29c81ee3321a27790338c8372ef98bdd4ef7063eb11515.css?body=1" for ::1 at 2015-11-18 17:25:07 +0900
+
+
+Started GET "/" for ::1 at 2015-11-18 17:28:12 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 151ms (Views: 147.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-accfeeb85f7043565854f664943eda334e497232ce5a920bad82628b9bc8837a.css?body=1" for ::1 at 2015-11-18 17:28:13 +0900
+
+
+Started GET "/" for ::1 at 2015-11-18 17:28:36 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 141ms (Views: 138.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-5e95f1b07be8cf193ffe8a317b66a8282bfd8371bd5df20ca2f7c189aa31da93.css?body=1" for ::1 at 2015-11-18 17:28:36 +0900
+
+
+Started GET "/" for ::1 at 2015-11-18 17:30:04 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 140ms (Views: 136.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-6b67ca7059da11aecfe5997e05f5e8ab2c3fb7c6c4640bb5d0df1d4535cb1c41.css?body=1" for ::1 at 2015-11-18 17:30:04 +0900
+
+
+Started GET "/" for ::1 at 2015-11-18 17:30:18 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 96ms (Views: 93.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/application.self-bb7b1b082d42c96c912cc2141567da54b8724532015d1ab0ab56e0f4ef7986fb.css?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/scaffolds.self-7fb78efc5845a548a86f5b0c0a6b4e5eaf8d9badb92af222ed37d21e862806be.css?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/sticky-footer.self-23c75e730b8a6f005008ea4e9fcc64e502f2d852dd7396e1a8599afe27e35db6.css?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 17:30:18 +0900
+
+
+Started GET "/users/sign_in" for ::1 at 2015-11-18 17:35:39 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (3.4ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/sessions/new.html.erb within layouts/application (80.2ms)
+Completed 200 OK in 267ms (Views: 258.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 17:35:51 +0900
+Processing by IdeasController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-11-18 17:35:51 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (0.8ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/sessions/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 106ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 17:35:51 +0900
+Processing by IdeasController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-11-18 17:35:51 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-11-18 17:36:13 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+JgA4wExiu024vwzQWMmZQ9AIA9cO/kzxdqJ/AqezT8A91UZ76jYFPeGSeZooohf+LS7fF/CzpN/a1M9JmnqMQ==", "user"=>{"email"=>"384067890@qq.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "384067890@qq.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2015-11-18 07:34:33.200241"], ["current_sign_in_at", "2015-11-18 08:36:13.226863"], ["sign_in_count", 4], ["updated_at", "2015-11-18 08:36:13.228007"], ["id", 1]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.localhost:3000/ideas
+Completed 302 Found in 151ms (ActiveRecord: 10.5ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 17:36:13 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 67ms (Views: 64.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 17:36:29 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 57ms (Views: 54.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 17:39:55 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 65ms (Views: 62.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/application.self-3d8f4370177fa1f45e29c81ee3321a27790338c8372ef98bdd4ef7063eb11515.css?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/sticky-footer.self-23c75e730b8a6f005008ea4e9fcc64e502f2d852dd7396e1a8599afe27e35db6.css?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/scaffolds.self-7fb78efc5845a548a86f5b0c0a6b4e5eaf8d9badb92af222ed37d21e862806be.css?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 17:39:55 +0900
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 17:40:29 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 68ms (Views: 66.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/sticky-footer.self-23c75e730b8a6f005008ea4e9fcc64e502f2d852dd7396e1a8599afe27e35db6.css?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/application.self-3d8f4370177fa1f45e29c81ee3321a27790338c8372ef98bdd4ef7063eb11515.css?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/scaffolds.self-7fb78efc5845a548a86f5b0c0a6b4e5eaf8d9badb92af222ed37d21e862806be.css?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 17:40:29 +0900
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-18 17:53:53 +0900
+Processing by IdeasController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered ideas/_form.html.erb (17.9ms)
+  Rendered ideas/new.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 188ms (Views: 159.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 17:53:55 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.4ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 133ms (Views: 128.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 18:00:20 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 98ms (Views: 95.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 18:00:22 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 18:00:34 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 18:00:35 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 65ms (Views: 62.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 18:00:36 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 58ms (Views: 55.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 18:00:36 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 55ms (Views: 51.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 18:06:56 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (5.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.5ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 336ms (Views: 309.6ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/application.self-361b13136235b6510aaecf0f18cd3f20180879a1e750a6727e0cad68c12b7866.css?body=1" for ::1 at 2015-11-18 18:06:57 +0900
+
+
+Started GET "/" for ::1 at 2015-11-18 18:08:13 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 146ms (Views: 143.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/application.self-63c60fcb5992e8a5648f1ed6403f0e499889a56dd0ee40a909d706b2ded920e7.css?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/sticky-footer.self-23c75e730b8a6f005008ea4e9fcc64e502f2d852dd7396e1a8599afe27e35db6.css?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/scaffolds.self-7fb78efc5845a548a86f5b0c0a6b4e5eaf8d9badb92af222ed37d21e862806be.css?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-18 18:08:13 +0900
+
+
+Started GET "/" for ::1 at 2015-11-18 18:09:12 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 123ms (Views: 120.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-1b3659ecf99c0bfc576505ca25a2eddc3e059a7d3c7c4adcfa5fb62fc3705af8.css?body=1" for ::1 at 2015-11-18 18:09:12 +0900
+
+
+Started GET "/" for ::1 at 2015-11-18 18:09:57 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 97ms (Views: 94.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 18:09:59 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 63ms (Views: 60.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 18:10:00 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 87ms (Views: 84.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-18 18:10:02 +0900
+Processing by IdeasController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered ideas/_form.html.erb (2.4ms)
+  Rendered ideas/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 61ms (Views: 58.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 18:10:05 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-18 18:13:45 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 99ms (Views: 95.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-18 18:14:08 +0900
+Processing by IdeasController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered ideas/_form.html.erb (3.5ms)
+  Rendered ideas/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 88ms (Views: 85.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 18:14:09 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 96ms (Views: 93.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-18 18:14:15 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.4ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (10.5ms)
+  Rendered ideas/show.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 158ms (Views: 73.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 18:15:06 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 09:47:06 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.5ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 178ms (Views: 152.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 09:47:22 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 09:58:23 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 186ms (Views: 182.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 10:14:38 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mIdea Load (0.6ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 868ms (Views: 802.3ms | ActiveRecord: 2.4ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-11-19 10:14:55 +0900
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"k+RdVVHiTn3sOuvRTFHV++DCxMFBYGTesMe+6gNnlNp7jFkM652i+ctuBw6pIOcDMa2KeBOgqI9VdKpjH8bK4A=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://www.localhost:3000/
+Completed 302 Found in 30ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 10:14:55 +0900
+Processing by IdeasController#index as HTML
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-11-19 10:14:55 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (1.6ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/sessions/new.html.erb within layouts/application (61.2ms)
+Completed 200 OK in 125ms (Views: 121.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-11-19 10:14:58 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (0.3ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/registrations/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 69ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2015-11-19 10:15:17 +0900
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U4J8cvm7w/TkJBJsjTMbYkvMaC2Cm2ngfUQRCXq/RRs/bq0DGjEIaka8vhJKjOns8+pZH7zlyg0S7Udjnnxe3Q==", "user"=>{"email"=>"jesszhangbj@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'jesszhangbj@yahoo.com' LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "jesszhangbj@yahoo.com"], ["encrypted_password", "$2a$10$YVuEWswMBwG26.BH92WGV.JMIXNJg07Doz1UgCJqtqnUJs1yLxUx6"], ["created_at", "2015-11-19 01:15:17.674758"], ["updated_at", "2015-11-19 01:15:17.674758"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2015-11-19 01:15:17.679670"], ["current_sign_in_at", "2015-11-19 01:15:17.679670"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2015-11-19 01:15:17.680563"], ["id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.localhost:3000/
+Completed 302 Found in 138ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 10:15:17 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 56ms (Views: 53.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 10:18:15 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 118ms (Views: 115.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 10:21:27 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.3ms)
+
+SyntaxError (/Users/k2macbookair/Documents/rails_projects/railsgirls/app/views/layouts/application.html.erb:81: syntax error, unexpected tIDENTIFIER, expecting ')'
+...er.gravatar_url, :width => 30px, :height => 30px );@output_b...
+...                               ^
+/Users/k2macbookair/Documents/rails_projects/railsgirls/app/views/layouts/application.html.erb:81: syntax error, unexpected =>, expecting :: or '[' or '.'
+...url, :width => 30px, :height => 30px );@output_buffer.safe_a...
+...                               ^):
+  app/views/layouts/application.html.erb:81: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:81: syntax error, unexpected =>, expecting :: or '[' or '.'
+
+
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.4ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.4ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/k2macbookair/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (128.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 10:21:50 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 107ms (Views: 105.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/sticky-footer.self-23c75e730b8a6f005008ea4e9fcc64e502f2d852dd7396e1a8599afe27e35db6.css?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/application.self-1b3659ecf99c0bfc576505ca25a2eddc3e059a7d3c7c4adcfa5fb62fc3705af8.css?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/scaffolds.self-7fb78efc5845a548a86f5b0c0a6b4e5eaf8d9badb92af222ed37d21e862806be.css?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-19 10:21:50 +0900
+
+
+Started GET "/ideas" for ::1 at 2015-11-19 10:22:05 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 57ms (Views: 55.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-19 10:22:07 +0900
+Processing by IdeasController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered ideas/_form.html.erb (26.2ms)
+  Rendered ideas/new.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/ideas" for ::1 at 2015-11-19 10:22:43 +0900
+Processing by IdeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DZv7t8hyZ+mf6J7rZkYLNGwmIu1cMot0zNuksBthfjRhdyrGK/isdz1wMpWh+fm61AAT32JMKJmjcvLa/6Jl8g==", "idea"=>{"name"=>"Start up", "description"=>"Start a business", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdedfc89540 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-qe2umq.png>, @original_filename="logo4.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"logo4.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Create Idea"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "ideas" ("name", "description", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Start up"], ["description", "Start a business"], ["picture", "logo4.png"], ["created_at", "2015-11-19 01:22:44.031974"], ["updated_at", "2015-11-19 01:22:44.031974"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://www.localhost:3000/ideas/6
+Completed 302 Found in 244ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/ideas/6" for ::1 at 2015-11-19 10:22:44 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.7ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 6]]
+  Rendered comments/_form.html.erb (9.8ms)
+  Rendered ideas/show.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 173ms (Views: 119.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-19 10:22:49 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 75ms (Views: 72.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/6" for ::1 at 2015-11-19 10:22:55 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 6]]
+  Rendered comments/_form.html.erb (2.5ms)
+  Rendered ideas/show.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 63ms (Views: 59.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/6/edit" for ::1 at 2015-11-19 10:23:03 +0900
+Processing by IdeasController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered ideas/_form.html.erb (3.0ms)
+  Rendered ideas/edit.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 83ms (Views: 80.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/ideas/6" for ::1 at 2015-11-19 10:23:12 +0900
+Processing by IdeasController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sA5JJM+LZTkxq5ZrUbOPw26ztRzVssegnpqmqt0cBpXc4phVLAGup5MzOhWWDH1N1pWELuvMZE3xM/DAOd8dUw==", "idea"=>{"name"=>"Start up", "description"=>"Start a business", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdedd21bf60 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-1aod5z3.jpeg>, @original_filename="logo3.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"logo3.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Idea", "id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "ideas" SET "picture" = ?, "updated_at" = ? WHERE "ideas"."id" = ?[0m  [["picture", "logo3.jpeg"], ["updated_at", "2015-11-19 01:23:12.852999"], ["id", 6]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://www.localhost:3000/ideas/6
+Completed 302 Found in 205ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/ideas/6" for ::1 at 2015-11-19 10:23:12 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 6]]
+  Rendered comments/_form.html.erb (2.9ms)
+  Rendered ideas/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 78ms (Views: 74.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-19 10:23:16 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.2ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-19 10:23:19 +0900
+Processing by IdeasController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered ideas/_form.html.erb (3.0ms)
+  Rendered ideas/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/ideas" for ::1 at 2015-11-19 10:23:35 +0900
+Processing by IdeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z304bqcibbDx1Wx6SPimdA6bx0YtQgu2/fhOcv2cVTMLkekfRKimLlNNwASPR1T6tr32dBM8qFuSURgYGV9O9Q==", "idea"=>{"name"=>"Start up", "description"=>"Business", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdedc5ced98 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-14sm43u.jpeg>, @original_filename="logo2.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"logo2.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Idea"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "ideas" ("name", "description", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Start up"], ["description", "Business"], ["picture", "logo2.jpeg"], ["created_at", "2015-11-19 01:23:35.830447"], ["updated_at", "2015-11-19 01:23:35.830447"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.localhost:3000/ideas/7
+Completed 302 Found in 201ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/ideas/7" for ::1 at 2015-11-19 10:23:35 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 7]]
+  Rendered comments/_form.html.erb (2.4ms)
+  Rendered ideas/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 100ms (Views: 95.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-19 10:23:38 +0900
+Processing by IdeasController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered ideas/_form.html.erb (2.5ms)
+  Rendered ideas/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 64ms (Views: 61.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/ideas" for ::1 at 2015-11-19 10:23:57 +0900
+Processing by IdeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5OUwpvKPK7ncPbYxaOAc3zXQeXfw+6GvSUBIKab3P1qICeHXEQXgJ36lGk+vX+5RjfZIRc6FAkIm6R5DQjQknA==", "idea"=>{"name"=>"Start up", "description"=>"Business", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdedfd50848 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-wtwl8z.jpeg>, @original_filename="Tokyo.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"Tokyo.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Idea"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "ideas" ("name", "description", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Start up"], ["description", "Business"], ["picture", "Tokyo.jpeg"], ["created_at", "2015-11-19 01:23:57.677493"], ["updated_at", "2015-11-19 01:23:57.677493"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://www.localhost:3000/ideas/8
+Completed 302 Found in 197ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/ideas/8" for ::1 at 2015-11-19 10:23:57 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", "8"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 8]]
+  Rendered comments/_form.html.erb (2.7ms)
+  Rendered ideas/show.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 93ms (Views: 89.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-19 10:24:00 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 93ms (Views: 90.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-19 10:24:03 +0900
+Processing by IdeasController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered ideas/_form.html.erb (2.8ms)
+  Rendered ideas/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 70ms (Views: 67.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/ideas" for ::1 at 2015-11-19 10:24:20 +0900
+Processing by IdeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n/tZ9Iep/+SdQvEg/NexqmUR/axYa3zxF1jM6t2XTDXzF4iFZCM0ej/aXV47aEMk3TfMnmYV3xx48ZqAOVRX8w==", "idea"=>{"name"=>"Start up", "description"=>"New Journey", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdee1b3f6d8 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-jyfs5h.jpeg>, @original_filename="logo2.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"logo2.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Idea"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "ideas" ("name", "description", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Start up"], ["description", "New Journey"], ["picture", "logo2.jpeg"], ["created_at", "2015-11-19 01:24:20.383992"], ["updated_at", "2015-11-19 01:24:20.383992"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.localhost:3000/ideas/9
+Completed 302 Found in 193ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/ideas/9" for ::1 at 2015-11-19 10:24:20 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 9]]
+  Rendered comments/_form.html.erb (3.1ms)
+  Rendered ideas/show.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 90ms (Views: 86.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-19 10:24:22 +0900
+Processing by IdeasController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered ideas/_form.html.erb (2.2ms)
+  Rendered ideas/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/ideas" for ::1 at 2015-11-19 10:24:38 +0900
+Processing by IdeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yS2Rmv/gZ2yRAqzaaFRbQyew7iR3g4G/7BZgS+X4aJ2lwUDrHGqs8jOaAKSv66nNn5bfFkn9IlKDvzYhATtzWw==", "idea"=>{"name"=>"Start up", "description"=>"New Habit", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdedfadcf30 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-1wfgjmm.jpeg>, @original_filename="logo3.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"logo3.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Idea"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "ideas" ("name", "description", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Start up"], ["description", "New Habit"], ["picture", "logo3.jpeg"], ["created_at", "2015-11-19 01:24:38.212367"], ["updated_at", "2015-11-19 01:24:38.212367"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://www.localhost:3000/ideas/10
+Completed 302 Found in 171ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/ideas/10" for ::1 at 2015-11-19 10:24:38 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 10]]
+  Rendered comments/_form.html.erb (3.2ms)
+  Rendered ideas/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 83ms (Views: 78.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-19 10:24:40 +0900
+Processing by IdeasController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered ideas/_form.html.erb (2.3ms)
+  Rendered ideas/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 56ms (Views: 54.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/ideas" for ::1 at 2015-11-19 10:25:01 +0900
+Processing by IdeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDVrUtrsSGuSpF6hoOKiA2AVRXUrQxFafs3X3op8E63k2bojOWaD9TA88t9nXVCN2DN0RxU9srcRZIG0br8Iaw==", "idea"=>{"name"=>"Start up", "description"=>"New Life", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdee1910d08 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-18cqz95.jpeg>, @original_filename="Tokyo.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"Tokyo.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Idea"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "ideas" ("name", "description", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Start up"], ["description", "New Life"], ["picture", "Tokyo.jpeg"], ["created_at", "2015-11-19 01:25:01.369280"], ["updated_at", "2015-11-19 01:25:01.369280"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.localhost:3000/ideas/11
+Completed 302 Found in 152ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/ideas/11" for ::1 at 2015-11-19 10:25:01 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "11"]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 11]]
+  Rendered comments/_form.html.erb (2.2ms)
+  Rendered ideas/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 74ms (Views: 68.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-19 10:25:03 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.4ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 96ms (Views: 93.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-19 10:25:49 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (1.7ms)
+  Rendered ideas/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 58ms (Views: 54.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/3/edit" for ::1 at 2015-11-19 10:25:53 +0900
+Processing by IdeasController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered ideas/_form.html.erb (1.9ms)
+  Rendered ideas/edit.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 62ms (Views: 58.0ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/ideas/3" for ::1 at 2015-11-19 10:26:11 +0900
+Processing by IdeasController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F9MO047BEcz0JCai8XrYRN4oeNlSJnTzUg0D8Vq8cQx7P9+ibUvaUla8itw2xSrKZg5J62xY1x49pFWbvn9qyg==", "idea"=>{"name"=>"Start up", "description"=>"New View", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdee1858618 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-1q3d2h8.jpeg>, @original_filename="logo2.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"logo2.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Idea", "id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mIdea Load (0.6ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mSQL (0.7ms)[0m  UPDATE "ideas" SET "name" = ?, "description" = ?, "picture" = ?, "updated_at" = ? WHERE "ideas"."id" = ?  [["name", "Start up"], ["description", "New View"], ["picture", "logo2.jpeg"], ["updated_at", "2015-11-19 01:26:11.301344"], ["id", 3]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.localhost:3000/ideas/3
+Completed 302 Found in 150ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/ideas/3" for ::1 at 2015-11-19 10:26:11 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (3.2ms)
+  Rendered ideas/show.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 80ms (Views: 76.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-19 10:26:15 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 78ms (Views: 75.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/4" for ::1 at 2015-11-19 10:26:17 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 4]]
+  Rendered comments/_form.html.erb (1.7ms)
+  Rendered ideas/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/4/edit" for ::1 at 2015-11-19 10:26:20 +0900
+Processing by IdeasController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered ideas/_form.html.erb (2.1ms)
+  Rendered ideas/edit.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 72ms (Views: 70.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/ideas/4" for ::1 at 2015-11-19 10:26:45 +0900
+Processing by IdeasController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y/e26N0Z4V10i5ODwgoWwRZXWRgZpd8HXpSVjuD8toCnG2eZPpMqw9YTP/0FteRPrnFoKifbfOoxPcPkBD+tRg==", "idea"=>{"name"=>"Start up", "description"=>"New Perspective", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdedfb06790 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-157jndb.jpeg>, @original_filename="logo3.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"logo3.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Idea", "id"=>"4"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "ideas" SET "name" = ?, "description" = ?, "picture" = ?, "updated_at" = ? WHERE "ideas"."id" = ?  [["name", "Start up"], ["description", "New Perspective"], ["picture", "logo3.jpeg"], ["updated_at", "2015-11-19 01:26:45.358387"], ["id", 4]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.localhost:3000/ideas/4
+Completed 302 Found in 198ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/ideas/4" for ::1 at 2015-11-19 10:26:45 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 4]]
+  Rendered comments/_form.html.erb (2.9ms)
+  Rendered ideas/show.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 110ms (Views: 105.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas" for ::1 at 2015-11-19 10:26:48 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 82ms (Views: 80.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/5" for ::1 at 2015-11-19 10:26:52 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 5]]
+  Rendered comments/_form.html.erb (1.6ms)
+  Rendered ideas/show.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 60ms (Views: 56.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/5/edit" for ::1 at 2015-11-19 10:26:54 +0900
+Processing by IdeasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered ideas/_form.html.erb (3.2ms)
+  Rendered ideas/edit.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 77ms (Views: 74.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/ideas/5" for ::1 at 2015-11-19 10:28:06 +0900
+Processing by IdeasController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TOAuQaprspDcaof9XVIdhzzeJ9s268xgeVhwQx8gKX0gDP8wSeF5Dn7yK4Oa7e8JhPgW6QiVb40W8SYp++Myuw==", "idea"=>{"name"=>"Start up", "description"=>"New Business", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdedc2ed610 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-ihuud2.jpeg>, @original_filename="Tokyo.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"Tokyo.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Idea", "id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mSQL (0.4ms)[0m  UPDATE "ideas" SET "name" = ?, "description" = ?, "picture" = ?, "updated_at" = ? WHERE "ideas"."id" = ?  [["name", "Start up"], ["description", "New Business"], ["picture", "Tokyo.jpeg"], ["updated_at", "2015-11-19 01:28:06.304089"], ["id", 5]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.localhost:3000/ideas/5
+Completed 302 Found in 214ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/ideas/5" for ::1 at 2015-11-19 10:28:06 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.1ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 5]]
+  Rendered comments/_form.html.erb (4.0ms)
+  Rendered ideas/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 129ms (Views: 124.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 10:28:14 +0900
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 77ms (Views: 74.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/new" for ::1 at 2015-11-19 10:28:40 +0900
+Processing by IdeasController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered ideas/_form.html.erb (3.1ms)
+  Rendered ideas/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 64ms (Views: 61.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/ideas" for ::1 at 2015-11-19 10:28:59 +0900
+Processing by IdeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qfQ7OShjqla1zt41m4YiYj+NHgwHBczl5NeHNLGFTsHFGOpIy+lhyBdWcktcOdDsh6svPjl7bwiLftFeVUZVBw==", "idea"=>{"name"=>"Start up", "description"=>"New Field", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fdedfaa5f08 @tempfile=#<Tempfile:/var/folders/03/s01ljbbn1ddf793sgd1j2pmc0000gn/T/RackMultipart20151119-11381-2no59q.jpeg>, @original_filename="logo3.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"idea[picture]\"; filename=\"logo3.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Idea"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "ideas" ("name", "description", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Start up"], ["description", "New Field"], ["picture", "logo3.jpeg"], ["created_at", "2015-11-19 01:28:59.519000"], ["updated_at", "2015-11-19 01:28:59.519000"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://www.localhost:3000/ideas/12
+Completed 302 Found in 194ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/ideas/12" for ::1 at 2015-11-19 10:28:59 +0900
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.1ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", "12"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 12]]
+  Rendered comments/_form.html.erb (4.0ms)
+  Rendered ideas/show.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 108ms (Views: 104.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 10:29:05 +0900
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 73ms (Views: 71.1ms | ActiveRecord: 0.4ms)

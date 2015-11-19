@@ -6,9 +6,13 @@ gem 'rails', '4.2.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+# New added gem file for RailsGrils
 gem 'carrierwave'
 gem 'mini_magick', '3.8.0'
 gem 'devise'
+gem 'gravtastic'
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
